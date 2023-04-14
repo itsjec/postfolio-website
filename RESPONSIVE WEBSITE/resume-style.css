@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+* {
+	margin:0;
+	padding:0px;
+	box-sizing: border-box;
+}
+hr {
+	margin: auto;
+	width: 90%;
+	color: grey;
+}
+body{
+    background: #1c1c1c;
+    font-family: "Poppins", sans-serif;
+}
+.container {
+	/*padding: 50px 0px 0px 0px;*/
+	margin: 50px auto;
+	display: flex;
+	justify-content: flex-start;
+	width: 90%;
+}
+main section{
+    background: white;
+}
+aside, main section {
+	flex: 3;
+	/*height: auto;*/
+	margin-right: 15px;
+    border-radius: 10px;
+}
+aside{
+    background: #111;
+
+}
+
+main {
+	flex: 7;
+}
+
+main #first-section {
+	margin-bottom: 50px;
+}
+
+.personal-img {
+	width: 80%;
+  	height: auto;
+    border-radius: 50%;
+    margin: 40px 40px
+}
+
+.name {
+	color: #8B008B;
+	font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    margin-top: -8px;
+}
+
+.personal-details, .details-list {
+	font-size: 1.2vw;
+	padding: 25px;
+	list-style: none;
+	color:white;
+}
+.personal-details li:hover{
+    color: #8B008B;
+}
+
+.details-list {
+	padding-top: 0px;
+}
+
+.personal-details li{
+	margin: 15px 0px;
+}
+
+.personal-details li i {
+	margin-right: 10px;
+
+}
+
+.details-list li {
+	margin: 15px 0px;
+}
+
+.head-section {
+	color: #8B008B;
+	padding: 30px;
+	margin: 0px;
+	font-size: 1.6vw;
+}
+
+.head-section i{
+	color: #1c1c1c;
+}
+
+.progress-back {
+	border: 1px solid #8B008B;
+	border-radius: 15px;
+	height: 1.5em;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+.progress-text {
+	color: white;
+	text-align: center;
+}
+
+
+.progress {
+	height: 100%;
+	border-radius: 15px;
+	background-color: #8B008B;
+}
+
+.p-100 {width: 100%;}
+.p-95 {width: 95%;}
+.p-90 {width: 90%;}
+.p-85 {width: 85%;}
+.p-75 {width: 75%;}
+.p-30 {width: 30%;}
+
+
+.data-details {
+	width: 90%;
+	margin: auto;
+	padding: 40px 0px;
+}
+
+.data-details h3{
+	font-size: 1.2vw;
+	color: #8B008B;
+	margin: 10px 0px;
+}
+.data-details h3:hover{
+    color: #1c1c1c;
+}
+
+.data-details > span{
+	color: #8B008B;
+	margin: 15px 0px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.fa-calendar-alt {
+	margin: 0px 10px;
+}
+
+.data-details p {
+	color: #5c5c5c;
+	margin: 10px 0px;
+	letter-spacing: .5px;
+	line-height: 1.6;
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+#projects{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 50px 0px;
+}
+
+.project-heading{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.project-heading h3{
+	font-size: 2.7rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #8B008B;
+	font-family: "Bebas Neue", sans-serif;
+}
+.project-heading span{
+	color: white;
+	font-family: "Dancing Script", cursive;
+}
